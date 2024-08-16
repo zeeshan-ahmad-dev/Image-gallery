@@ -23,18 +23,18 @@ function App() {
 
   
   function next() {
+    const imgs = document.querySelectorAll('.item')
     setcurrIndex((prevIndex) => {
-      let newIndex = (prevIndex + 1) % 5;
-      console.log(newIndex)
+      let newIndex = (prevIndex + 1) % imgs.length;
       slide(newIndex < 0 ? -newIndex : newIndex);
       return newIndex;
     })
   }
   
   function prev() {
+    const imgs = document.querySelectorAll('.item')
     setcurrIndex((prevIndex) => {
-      let newIndex = (prevIndex - 1) % 5;
-      console.log(-newIndex)
+      let newIndex = (prevIndex - 1) % imgs.length;
       slide(newIndex < 0 ? newIndex = 4 : newIndex)
       return newIndex < 0 ? -newIndex : newIndex;
     })
@@ -50,7 +50,7 @@ function App() {
     const slider = document.querySelector('.slider')
     const dots = document.querySelectorAll('.dot');
 
-    slider.style.left = -newIndex * 1366  + 'px';
+    slider.style.left = -newIndex * 100  + 'vw';
     
     const lastActive = document.querySelector('ul li.w-5');
     lastActive.classList.remove('w-5')
