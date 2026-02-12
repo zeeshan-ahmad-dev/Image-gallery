@@ -1,12 +1,38 @@
-# Image Gallary
+# Image Gallery 🎨
 
-This is a small react project I created for sharpening my understanding of DOM in React with Tailwind.
+A small React project I built to practice DOM manipulation and state handling in React, using Tailwind CSS for styling.
 
-It has previous + next button for images and after 2000ms it auto increment image.
+It features **Previous** and **Next** buttons to navigate through images.
 
-## How It works?
+---
 
-You need to add imports of images into assets.js inside assets folder. Than It will automatically detect them and show slides according to those images.
+## How It Works
+
+1. Add your images to the `assets` folder.
+2. Import them in `assets.js`.
+3. The slider will automatically detect the images and display them as slides.
+
+---
+
+## Features
+
+- React + Tailwind CSS
+- Previous / Next buttons
+- Clickable dots for navigation
+- Smooth slide transitions
+
+---
 
 ## Live Preview
-You can check it out here: 
+
+You can check it out here:  
+[Live Demo Link]()
+
+---
+
+## How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>

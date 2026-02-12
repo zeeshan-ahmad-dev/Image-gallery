@@ -16,14 +16,6 @@ function App() {
     dots[0].classList.add("w-5");
   }, []);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      next();
-    }, 2000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   function next() {
     const imgs = document.querySelectorAll(".item");
     setcurrIndex((prevIndex) => {

@@ -6,6 +6,6 @@ import five from './5.jpg';
 import six from './6.jpg';
 import seven from './7.jpg';
 import eight from './8.jpg';
+import nine from './9.jpg';
 
-
-export default [ one, two, three ,four, five, six, seven, eight ]
+export default [ one, two, three ,four, five, six, seven, eight, nine ]
