@@ -23,13 +23,6 @@ It features **Previous** and **Next** buttons to navigate through images.
 
 ---
 
-## Live Preview
-
-You can check it out here:  
-[Live Demo Link]()
-
----
-
 ## How to Run Locally
 
 1. Clone the repository:
